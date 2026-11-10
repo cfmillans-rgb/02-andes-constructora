@@ -181,7 +181,7 @@ const formFields = {
   telefono:    {
     el: null, errorEl: null,
     rule: (v) => /^(\+56|56)?[\s-]?(9[\s-]?\d{4}[\s-]?\d{4}|2\d{7,8})$/.test(v.trim().replace(/\s/g, '')),
-    msg: 'Ingresa un teléfono válido (ej: +56 9 1234 5678).'
+    msg: 'Ingresa un teléfono válido (ej: +56 9 XXXX XXXX).'
   },
   correo:      {
     el: null, errorEl: null,
